@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+}
+
+.tittle {
+text-align: center;
+margin-top: 30px;
+}
+
+.button{
+
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: 1;
+    border-radius: 8px;
+  }
+
+#result{
+  text-align: center;
+  
+  margin-bottom: 20px;
+}
+
+#pokemons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokemon1,
+#pokemon2 {
+  text-align: center;
+  margin: 0 10px;
+}
+
+#img-pokemon1,
+#img-pokemon2 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+#name-pokemon1,
+#name-pokemon2 {
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size: 20px;
+  color: rgb(255, 7, 7);
+  
+  
+}

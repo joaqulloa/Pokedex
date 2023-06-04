@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+  <header class="header me-auto mb-2 mb-lg-0 bg-danger">
+    <a href="#">
+  <img class="title" src="https://fontmeme.com/permalink/230522/e17fd01b736d954247a0c2255c766ad9.png" alt="fuente-pokemon" border="0">
+    <nav class="navbar navbar-dark bg-danger">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Busqueda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="massivesearch.html">Lista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="batalla.html">Campo de batalla</a>
+          </li>
+      </ul>
+      </nav>
+    </header>
+    <div id="cometa"></div>
+        <div class="pokedex">
+        <input type="text" id="searchInput" placeholder="Buscar por nombre o ID"/>
+        <button class="btn" id="searchButton">Buscar</button>
+        <div class="pokedex-container" id="pokemonTypes"></div>
+        </div>
+      </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="module" src="assets/js/search.js"></script>
+</body>
+</html>
